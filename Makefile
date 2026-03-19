@@ -8,8 +8,7 @@ REGISTRY_USERNAME ?= isaackuang
 TAG ?= $(shell git describe --tags --exact-match)
 
 EXTENSIONS ?= ghcr.io/siderolabs/iscsi-tools:v0.2.0@sha256:94335171a9caa4db620a3fb09a97b6b473cac25e15b9aeee0d7610dc10895377 \
-			 ghcr.io/siderolabs/util-linux-tools:2.41.1@sha256:136630ec24d009a91ef40c12816d79c2e0597b0ebd398ad1fb6f30c7113bff2b \
-			 ghcr.io/siderolabs/nfsd:v1.11.5@sha256:1b1fdb584e032e4b906da1ad5749f2ddf3f7a777ad3433961da33d56901cf0df
+			 ghcr.io/siderolabs/util-linux-tools:2.41.1@sha256:136630ec24d009a91ef40c12816d79c2e0597b0ebd398ad1fb6f30c7113bff2b
 
 PKG_REPOSITORY = https://github.com/siderolabs/pkgs.git
 TALOS_REPOSITORY = https://github.com/siderolabs/talos.git
